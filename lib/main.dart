@@ -35,8 +35,6 @@ class MyHomePage extends StatelessWidget {
         onPressed: () async {
           final CharacterService service = GetIt.I.get();
           final response = await service.getCharacters(1);
-
-          print('xuxa');
         },
       ),
     );
